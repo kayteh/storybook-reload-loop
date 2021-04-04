@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6007",
+    "storybook": "start-storybook -p 6007 --debug-webpack",
     "build-storybook": "build-storybook"
   },
   "repository": {
@@ -20,14 +20,16 @@
   },
   "homepage": "https://github.com/kayteh/storybook-reload-loop#readme",
   "devDependencies": {
-    "@storybook/addon-actions": "^6.2.2",
-    "@storybook/addon-essentials": "^6.2.2",
-    "@storybook/addon-links": "^6.2.2",
-    "@storybook/node-logger": "^6.2.2",
-    "@storybook/react": "^6.2.2"
+    "@storybook/addon-actions": "6.2.0-alpha.34",
+    "@storybook/addon-essentials": "6.2.0-alpha.34",
+    "@storybook/addon-links": "6.2.0-alpha.34",
+    "@storybook/node-logger": "6.2.0-alpha.34",
+    "@storybook/react": "6.2.0-alpha.34"
   },
   "dependencies": {
     "@babel/core": "^7.13.14",
+    "@icons/material": "^0.4.1",
+    "patch-package": "^6.4.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-is": "^17.0.2",
